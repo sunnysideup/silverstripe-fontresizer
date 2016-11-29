@@ -13,4 +13,3 @@
 //FontResizer::set_max_font_size(1.3);
 //FontResizer::set_min_font_size(0.7);
 //===================---------------- END fontresizer MODULE ----------------===================
-
