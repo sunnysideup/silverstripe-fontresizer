@@ -1,40 +1,72 @@
-font resizer
-================================================================================
+# Silverstripe fontresizer module
+[![Build Status](https://travis-ci.org/sunnysideup/silverstripe-fontresizer.svg?branch=master)](https://travis-ci.org/sunnysideup/silverstripe-fontresizer)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sunnysideup/silverstripe-fontresizer/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/sunnysideup/silverstripe-fontresizer/?branch=master)
+[![codecov.io](https://codecov.io/github/sunnysideup/silverstripe-fontresizer/coverage.svg?branch=master)](https://codecov.io/github/sunnysideup/silverstripe-fontresizer?branch=master)
+![helpfulrobot](https://helpfulrobot.io/sunnysideup/fontresizer/badge)
 
-Credits
------------------------------------------------
+[![Latest Stable Version](https://poser.pugx.org/sunnysideup/fontresizer/version)](https://packagist.org/packages/sunnysideup/fontresizer)
+[![License](https://poser.pugx.org/sunnysideup/fontresizer/license)](https://packagist.org/packages/sunnysideup/fontresizer)
+[![Monthly Downloads](https://poser.pugx.org/sunnysideup/fontresizer/d/monthly)](https://packagist.org/packages/sunnysideup/fontresizer)
 
-Developer
------------------------------------------------
-Nicolaas [at] sunnysideup.co.nz
 
-Requirements
------------------------------------------------
-see composer.json
-
-Documentation
------------------------------------------------
-Adding this module allows the user to change
-font-sizes on your website.
+## Documentation
 
 
 
-Installation Instructions
------------------------------------------------
-1. Find out how to add modules to SS and add module as per usual.
+ * [Developer Docs](docs/en/INDEX.md)
+ * [User Guide](docs/en/userguide.md)
+ * [API](http://ssmods.com/apis/fontresizer/docs/en/api/)
 
-2. Review configs and add entries to mysite/_config/config.yml
-(or similar) as necessary.
-In the _config/ folder of this module
-you can usually find some examples of config options (if any).
+## Requirements
 
-3. place the part of the website that you would like to be font-resized in the following div:
-	...
-	<div id="FontSizeWrapper">
-		fonts are resized!!!
-	</div>
-	...
 
-4. for the place in your template where you want to have the resize buttons, add
 
-<% include FontResizer %>
+see [composer.json](composer.json) for details
+
+### Suggested Modules
+
+
+
+see [composer.json](composer.json) for details
+
+
+## Installation
+
+
+```
+composer require sunnysideup/fontresizer
+```
+
+### Configuration
+
+
+
+In the `_config` folder you will find the `fontresizer.yml.example`
+file that shows options for the configuration of this module.
+
+We recommend that you:
+
+  1. copy these `fontresizer.yml.example` files into your
+`mysite/_config` folder
+  2. remove the .example extension
+  3. delete the lines you not care about, and
+  4. adjust the configurations that you would like to use.
+
+
+## Contributing
+
+
+
+We welcome any contributions. See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
+
+## Paid assistance
+
+
+
+You can pay us to create an improved / adapted version of this module for your own projects.  Please contact us if you like to find out more: [www.sunnysideup.co.nz](http://www.sunnysideup.co.nz)
+
+## Author
+
+
+
+Sunny Side Up Ltd.
