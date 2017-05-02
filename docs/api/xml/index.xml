@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<index xmlns="http://xml.phpdox.net/src" basedir="/var/www/_modules/fontresizer/trunk">
-  <namespace name="">
-    <class name="FontResizer" src="code/FontResizer.php" xml="classes/FontResizer.xml"/>
-  </namespace>
-</index>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<source xmlns="http://xml.phpdox.net/src">
-  <dir name="/var/www/_modules/fontresizer/trunk">
-    <file name="_config.php" size="565" time="2015-03-14T10:22:51+13:00" unixtime="1426281771" sha1="8274c8b7467cf0994c960af4f76578d716514cee" xml="tokens/_config.php.xml"/>
-    <dir name="code">
-      <file name="FontResizer.php" size="2147" time="2015-03-14T10:22:51+13:00" unixtime="1426281771" sha1="3c76f3b168388b226f2034d7e9ef213475a6c24c" xml="tokens/code/FontResizer.php.xml"/>
-    </dir>
-  </dir>
-</source>
